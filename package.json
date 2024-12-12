@@ -2,6 +2,7 @@
   "name": "botpress",
   "private": true,
   "scripts": {
+    "start": " server.js",
     "build": "turbo build",
     "bump": "depsynky bump && pnpm -w install",
     "test": "vitest --run",
